@@ -1,4 +1,4 @@
-package day4;
+package day5;
 
 import java.util.Scanner;
 
@@ -35,8 +35,8 @@ public class BreakWhile {
 			default:
 				System.out.println("잘못된 선택");
 				break;
+				}
 		}sc.close();
-		}
 	}
 
 }
