@@ -35,11 +35,11 @@ public class Test11 {
 	}
 	
 	if(kind==1) {
-		System.out.println("총 " + time + "시간 주차했고 " + total + "입니다.");
+		System.out.println("총 " + time + "시간 주차했고 " + total + "원 입니다.");
 	}else if(kind==2) {
-		System.out.println("총 " + time + "시간 주차했고 " + total * dc + "입니다.");
+		System.out.println("총 " + time + "시간 주차했고 " + total + "원 입니다.");
 	}else if(kind==3){
-		System.out.println("총 " + time + "시간 주차했고 " + total * dc + "입니다.");
+		System.out.println("총 " + time + "시간 주차했고 " + total + "원 입니다.");
 	}else {
 		System.out.println("3종류의 차량 중 선택해주세요");
 	}

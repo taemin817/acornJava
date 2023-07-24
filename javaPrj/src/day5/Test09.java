@@ -13,7 +13,7 @@ public class Test09 {
 		}
 		
 		System.out.println("원하는 구구단 숫자를 입력하세요");
-//원하는 단 출력
+// 원하는 단 출력
 		Scanner sc = new Scanner(System.in);
 		int k;
 		k = sc.nextInt();
