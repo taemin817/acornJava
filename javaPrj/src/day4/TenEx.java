@@ -9,7 +9,7 @@ public class TenEx {
 					sum+=i;
 					System.out.println(sum);
 				}
-				System.out.println(sum);
+				System.out.println("합 : " + sum);
 				System.out.println();
 				
 	}
