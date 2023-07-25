@@ -18,67 +18,60 @@ public class ExtraTest {
 		
 		//s.c max=3, subject =3
 		
-		double avg;
-		double kor_avg;
-		double eng_avg;
-		double math_avg;
-		
-		final int MAX = 3;
-		final int SUBJECT = 3;
+        double avg = 0.0;
+        double kor_avg, eng_avg, math_avg;
+        double sum;
+        int kor_sum = 0;
+        int eng_sum = 0;
+        int math_sum = 0;
+        
+        final int MAX = 3;
+        final int SUBJECT = 3;
 
-		Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
+        
+        for(int i=1; i<=MAX; i++){
+            String name = sc.next();
+            int kor = sc.nextInt();
+            int eng = sc.nextInt();
+            int math = sc.nextInt();
 
-		String name;
-		int kor=0; 
-		int eng=0; 
-		int math=0; 
-		
-		int sum = kor + eng + math;
-		avg = sum/SUBJECT;
-		int kor_sum = 0;
-		kor_sum += kor;
-		int eng_sum = 0;
-		eng_sum += eng;
-		int math_sum = 0;
-		math_sum += math;
-		
-		for(int i=1; i<=MAX; i++) {
-			name = sc.next();
-			kor = sc.nextInt();
-			eng = sc.nextInt();
-			math = sc.nextInt();
-		if(avg >= 90) {
-			System.out.println(name);
-			System.out.println(kor);
-			System.out.println(eng);
-			System.out.println(math);
-			System.out.println(avg);
-			System.out.println("excellent");
-		}else{
-			if(avg < 60) {
-				System.out.println(name);
-				System.out.println(kor);
-				System.out.println(eng);
-				System.out.println(math);
-				System.out.println(avg);
-				System.out.println("fail");
-			}else{
-				System.out.println(name);
-				System.out.println(kor);
-				System.out.println(eng);
-				System.out.println(math);
-				System.out.println(avg);
-			}
-		}i++;
-	}
-		kor_avg = kor_sum/MAX;
-		eng_avg = eng_sum/MAX;
-		math_avg = math_sum/MAX;
-		
-		System.out.println(kor_avg);
-		System.out.println(eng_avg);
-		System.out.println(math_avg);
-		
-	}
+            sum = kor + eng + math;
+            avg = sum/SUBJECT;
+            kor_sum += kor;
+            eng_sum += eng;
+            math_sum += math;
 
+            if(avg>=90){
+                System.out.println("이름 : " + name);
+                System.out.println("국어 : " + kor);
+                System.out.println("영어 : " + eng);
+                System.out.println("수학 : " + math);
+                System.out.println("평균 : " + avg);
+                System.out.println("excellent");
+            }else if
+                (avg<60){
+                    System.out.println("이름 : " + name);
+                    System.out.println("국어 : " + kor);
+                    System.out.println("영어 : " + eng);
+                    System.out.println("수학 : " + math);
+                    System.out.println("평균 : " + avg);
+                    System.out.println("false");
+                }else{
+                    System.out.println("이름 : " + name);
+                    System.out.println("국어 : " + kor);
+                    System.out.println("영어 : " + eng);
+                    System.out.println("수학 : " + math);
+                    System.out.println("평균 : " + avg);
+                }
+            }
+        
+        kor_avg = kor_sum/MAX;
+        eng_avg = eng_sum/MAX;
+        math_avg = math_sum/MAX;
+
+        System.out.println("국어 총평균 : " + kor_avg);
+        System.out.println("영어 총평균 : " + eng_avg);
+        System.out.println("수학 총평균 : " + math_avg);
+    }
 }
