@@ -93,8 +93,8 @@ public class Array3Ex2 {
 						{6, 7, 8}
 					}
 				}
-		
 		};
+		
 		System.out.println();
 		for(int i = 0; i < sudoku.length; i++) {						// 면
 			for(int j = 0; j < sudoku[i].length; j++) {					// 행
