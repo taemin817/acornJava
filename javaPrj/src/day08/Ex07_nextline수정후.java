@@ -11,7 +11,7 @@ public class Ex07_nextline수정후 {
 
 		Scanner sc = new Scanner(System.in);
 		int menu;
-		int index=0;
+		int index = 0;
 		loop : while(true) {
 			System.out.print("메뉴 선택 : 1.등록, 2.조회, 3.변경, 4.삭제, 5.종료");
 			String menu_ = sc.nextLine();
