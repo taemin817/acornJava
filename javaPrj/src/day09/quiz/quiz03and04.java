@@ -1,6 +1,5 @@
 package day09.quiz;
 
-import java.security.PublicKey;
 import java.util.Scanner;
 
 public class quiz03and04 {

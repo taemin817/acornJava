@@ -1,3 +1,4 @@
+package day09.func;
 import java.util.Arrays;
 
 public class arrDelete2 {

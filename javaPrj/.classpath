@@ -6,5 +6,15 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/hbi/Desktop/라이브러리/박태민_밴드 라이브러리.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hbi/Desktop/라이브러리/박태민_계산기 라이브러리.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hbi/Desktop/라이브러리/mkYak.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hbi/Desktop/라이브러리/myMath.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hbi/Desktop/라이브러리/NJ.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hbi/Desktop/라이브러리/박태민_리모컨 라이브러리.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hbi/Desktop/라이브러리/표준태_길드가입신청서.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hbi/Desktop/라이브러리/김병진_라이브러리.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hbi/Desktop/라이브러리/김재열_MM3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/hbi/Desktop/라이브러리/허재혁_라이브러리.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
