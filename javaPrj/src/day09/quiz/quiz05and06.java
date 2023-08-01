@@ -1,4 +1,4 @@
-package academy;
+package day09.quiz;
 
 import java.util.Scanner;
 
