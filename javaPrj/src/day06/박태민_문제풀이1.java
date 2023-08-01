@@ -2,8 +2,6 @@ package day06;
 
 import java.util.Scanner;
 
-import day05.김민지_문제풀이.EvenSum_6;
-
 public class 박태민_문제풀이1 {
 
 	public static void main(String[] args) {
