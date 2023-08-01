@@ -13,7 +13,7 @@ public class up_down_Casting {
 		// type : 크기, 해석
 		
 		// upcasting (자동형변환)
-		Animal animal = new Cat();
+		Animal animal = new Cat();  //
 		//  animal. -> 쥐를잡는다() 가 인식되지않는다. 부모형의 값만큼 인식
 		
 		// downcasting. new의 실체가 중요 (명시적형변환)
