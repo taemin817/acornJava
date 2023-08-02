@@ -1,6 +1,6 @@
 package day11.inheritance;
 
-// extends(확장) : 상속받을 때 쓰는 키워드
+			  // extends(확장) : 상속받을 때 쓰는 키워드
 public class Cat extends Animal {
 	
 	public void 쥐를잡는다() {

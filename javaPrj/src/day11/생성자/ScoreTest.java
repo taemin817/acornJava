@@ -8,23 +8,23 @@ public class ScoreTest {
 		// 확보된 공간의 주소(레퍼런스)를 저장한 뒤 사용
 		// 반드시 참조형변수(주소를 저장하는 변수. 기본값 null-참조하고있지않음-) 필요
 		
-		Score s = null;
-		s = new Score();
+		Score_Do_Referece s = null;
+		s = new Score_Do_Referece();
 		s.printInfo();
 		s.calResult();
 		System.out.println();
 		
-		Score s2 = new Score("박태민", 100, 100, 100);
+		Score_Do_Referece s2 = new Score_Do_Referece("박태민", 100, 100, 100);
 		s2.printInfo();
 		s2.calResult();
 		System.out.println();
 		
-		Score s3 = new Score("박태민");
+		Score_Do_Referece s3 = new Score_Do_Referece("박태민");
 		s3.printInfo();
 		s3.calResult();
 		System.out.println();
 		
-		Score s4 = new Score("민태박", 100, 100, 100);
+		Score_Do_Referece s4 = new Score_Do_Referece("민태박", 100, 100, 100);
 		s4.calResult();
 		String result4 = s4.toString();
 		System.out.println(result4);

@@ -11,7 +11,7 @@ public class Student_test {
 		// 3. 생성된 객체 정보를 참조형 변수가 저장
 		// 4. 참조형변수를 통해 객체의 정보를 저장하거나 이용
 		// 5. 객체지향은 메서드를 통해 값을 사용하는 방법을 이용
-												// 우주연 이 하나만 있어도 되겠는데?
+												// "우주연" 이 하나만 있어도 되겠는데? -> static으로 끌어내자(Student2 참고)
 		Student s1 = new Student("박태민", 95, 98, "우주연"); // new 대상 = 
 		Student s2 = new Student("김민지", 100, 89, "우주연");
 		Student s3 = new Student("서예진", 99, 88, "우주연");

@@ -1,7 +1,6 @@
 package day11.상속미사용;
 
 public class Professor {
-
 	public void 말하기() {
 		System.out.println("말한다");
 	}	

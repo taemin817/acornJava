@@ -23,7 +23,7 @@ public class up_down_Casting {
 		
 		//Animal animal2 = new Animal();
 		//Cat cat3 = (Cat)animal2;
-		//cat3.쥐를잡는다(); // 문법적으로 허용하지만 불가능
+		//cat3.쥐를잡는다(); // 문법적으로 허용하지만 불가능. 잘못된 다운캐스팅
 	}
 
 }

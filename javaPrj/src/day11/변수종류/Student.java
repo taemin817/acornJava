@@ -14,7 +14,7 @@ public class Student {
 
 	}
 
-	// 배개변수가 있는 생성자
+	// 매개변수가 있는 생성자
 	public Student(String name, int kor, int eng, String teacher) {
 		this.name = name;
 		this.kor = kor;
