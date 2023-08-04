@@ -28,8 +28,8 @@ public class Score {
 			result="불합격";
 	}
 	
-	public Score() {
-		// TODO Auto-generated constructor stub
+	public Score() {		// 기본생성자
+		
 	}
 	
 	@Override

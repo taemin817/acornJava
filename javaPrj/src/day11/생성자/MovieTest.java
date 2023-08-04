@@ -14,7 +14,7 @@ public class MovieTest {
 		//M2.input("쥬라기 월드: 도미니언", "action/SF", "2시간 27분", "12세 이상");
 		M2.printInfo();
 		
-		//M3.input("서치 2", "thri"서치 2", "thriller", "1시간 51분", "12세 이상"ller", "1시간 51분", "12세 이상");
+		//M3.input("서치 2", "thriller", "1시간 51분", "12세 이상");
 		M3.printInfo();
 		
 	}

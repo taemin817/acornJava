@@ -17,6 +17,7 @@ public class ScoreTest2 {
 		s1.calResult();
 		s2.calResult();
 		*/
+		
 		list.add(s1);
 		list.add(s2);
 		list.add(new Score("C", 99, 98));
@@ -37,7 +38,7 @@ public class ScoreTest2 {
 		System.out.println("홍길동 추가");
 		Object obj  = new Score("홍길동", 100, 100);	// upcasting		
 		System.out.println(obj);
-						 // toString 생략됨
+						 // obj.toString 생략됨
 		// 부모형으로 참조해도 오버라이드된 실제 객체의 메서드가 호출된다
 		
 		// C학생의 정보 조회

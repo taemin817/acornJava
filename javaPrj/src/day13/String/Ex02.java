@@ -13,6 +13,7 @@ public class Ex02 {
 
 		// str 문자열 객체의 내용을 바꿀 수 없다
 		String result2 = str.replace('h', 'g');
+		
 		// 원본의 문자열이 수정되는 것이 아니다..!
 		System.out.println(result2);
 		System.out.println(str);
@@ -46,6 +47,7 @@ public class Ex02 {
 		System.out.println();
 		String s1 = "hello";
 		String s2 = "hello";
+		
 		// 문자열의 비교는 equals() 사용해야함
 		boolean result7 = s1.equals(s2);
 		System.out.println(result7);

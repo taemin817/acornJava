@@ -10,7 +10,7 @@ public class Redbull_Test {
 		
 		rb.시그니처();
 		
-		Beverage rb2 = new Redbull();
+		Beverage rb2 = new Redbull(); //
 		rb2.액체();
 		
 		Redbull rb3 = (Redbull)rb2;
