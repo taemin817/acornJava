@@ -25,6 +25,7 @@ public class quiz03 {
 			System.out.println("10명 총합 : "+sum);
 			avg=sum/i;
 			System.out.println("10명 평균 : "+avg);
+			
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
