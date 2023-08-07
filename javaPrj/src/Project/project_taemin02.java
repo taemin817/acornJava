@@ -14,7 +14,7 @@ public class project_taemin02 {
             Scanner select = new Scanner(System.in);
             String menuNum = select.nextLine();
             int menu = Integer.parseInt(menuNum);
-
+            
             switch (menu){
                 case 1: 
                 	insert(bookArr, index, select);
@@ -41,7 +41,7 @@ public class project_taemin02 {
                     delBook(bookArr, index, select);	// 삭제를 원하는 번호를 입력하여
                     break;
                 case 4: 
-                    System.out.println("종료합니다");
+                    System.out.println("종료");
                     break loop;
             }
         }
