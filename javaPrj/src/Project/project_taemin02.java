@@ -41,7 +41,7 @@ public class project_taemin02 {
                     delBook(bookArr, index, select);	// 삭제를 원하는 번호를 입력하여
                     break;
                 case 4: 
-                    System.out.println("종료");
+                    System.out.println("종료합니다");
                     break loop;
             }
         }
