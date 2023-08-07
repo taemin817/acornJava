@@ -7,7 +7,6 @@ import java.io.IOException;
 
 public class quiz01 {
 	public static void main(String[] args) {
-		
 		try {
 			BufferedReader bf = new BufferedReader(new FileReader("res/student.txt"));
 			while(true) {
