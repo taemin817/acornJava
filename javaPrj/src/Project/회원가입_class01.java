@@ -17,7 +17,7 @@ public class 회원가입_class01 {
 			  
 	        String filePath = "res/아이디.txt";
 
-	        //1.회원확인( 회원정보 - 파일 aaa.txt)
+	        //1.회원확인( 회원정보 - 파일 아이디.txt)
 	        
 	        FileReader fileReader = new FileReader(filePath ); // true는 append 모드를 나타냅니다.
             BufferedReader bufferedReader = new BufferedReader(fileReader);

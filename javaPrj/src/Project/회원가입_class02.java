@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class 회원가입_class02 {
 	
       ArrayList<String> memberIds = new ArrayList<String>();
-
     
     public boolean joinId(String id) {
         for (String memberId : memberIds) {
