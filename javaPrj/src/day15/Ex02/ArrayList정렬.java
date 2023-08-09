@@ -7,10 +7,6 @@ import java.util.Comparator;
 public class ArrayList정렬 {
 
 	public static void main(String[] args) {
-	 
-		
-		
-		
 		
 		ArrayList<Score2> list  = new ArrayList();
 		

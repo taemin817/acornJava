@@ -13,13 +13,12 @@ public class Ex02 {
 			// 예외가 발생하면 예외객체가 생성됨
 		int[] arr = new int[3];
 		
-		arr[3] = 50;
-		System.out.println(arr[3]);
+		arr[4] = 50;
+		System.out.println(arr[4]);
 		
-		}catch (Exception e) {
-//		}catch (ArrayIndexOutOfBoundsException e) {
-			// 예외가 발생했을 때 실행할 코드
-		}
+//		}catch (Exception e) {
+		}catch (ArrayIndexOutOfBoundsException e) {
+System.out.println("넘었어");		}
 		System.out.println("정상종료");
 	}
 }

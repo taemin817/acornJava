@@ -3,7 +3,7 @@ package day15.Ex01;
 public class Score0  implements Comparable {
 private  String name;
 private  int kor;
-private   int eng;
+private  int eng;
 
 
 //생성자 

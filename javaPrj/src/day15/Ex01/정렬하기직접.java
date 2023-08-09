@@ -11,8 +11,6 @@ public class 정렬하기직접 {
 		arr[2]= new Score0("박길동",90,89);
  
 		
-		
-		
 		for( int i=0; i< arr.length-1 ; i++){
 			
 			for( int j=i+1; j< arr.length; j++){
@@ -28,8 +26,8 @@ public class 정렬하기직접 {
 		}
 		
 		//
-		for( Score0 s: arr)
-			System.out.println( s);
+		for( Score0 s : arr)
+			System.out.println(s);
 
 	}
 

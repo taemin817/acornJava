@@ -17,7 +17,6 @@ public class 정렬하기_라이브러리사용 {
 		
 		Arrays.sort(arr);
 		
-		
 		// Exception !!
 		// class MyArrays.Score0 cannot be cast to class java.lang.Comparable 
 		// 이 오류는 Score0 클래스를 Comparable로 형변환하고 있다.  
@@ -26,7 +25,6 @@ public class 정렬하기_라이브러리사용 {
 		// 그렇다는 것은 이 기능을 사용하기 위해서는 Comparable형 인터페이스를 구현해야 한다는 뜻 이다
 		
 		// 정렬을 해 주는 라이브러리는 어떻게 만들어졌을까?
-		
 		
 		/*
 		 *  정렬해주는 기능을 만들기능

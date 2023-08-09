@@ -6,12 +6,12 @@ package day15.Ex01;
 
 public class MyArrays {
 	
-	public static void  sort (Object[]  arr) {		
+	public static void sort (Object[] arr) {		
 		for( int i=0 ; i< arr.length-1 ; i++) {
 			for( int j=i+1 ; j< arr.length ;j++) {
 				
 				MyComparable  m =(MyComparable)arr[i];  // MyComparable로 형변환을 해야 compareTo 매서드를 사용할 수 있다.
-				if( m.compareTo(arr[j]) >0) {
+				if( m.compareTo(arr[j]) > 0) {
 					Object tmp;
 					tmp= arr[i];
 					arr[i] = arr[j];
@@ -21,7 +21,6 @@ public class MyArrays {
 		}
 		
 	}
-	
 	
 	
 	//정렬기능 (이것을 먼저 테스트해 본다) 

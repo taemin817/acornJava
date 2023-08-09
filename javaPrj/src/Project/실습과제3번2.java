@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class 실습과제3번2 {
 
-		 static String[] days = new String[100];
+		 static String[] days = new String[3];
 		 static int index=0;		
 		 static Scanner sc = new Scanner( System.in);
 
