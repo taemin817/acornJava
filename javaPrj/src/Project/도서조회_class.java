@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class 도서조회_class extends bookList{
 
     public static void 조회( ) {
-
+    	도서정보 info = new 도서정보();
         Scanner sc = new Scanner(System.in);
         //비교했을때 일치하는 것 조회(카테고리 또는 번호)
         boolean found = false;
 
         loop : while(true){
-            System.out.println("\n찾고싶은 도서의 카테고리(1.문학, 2.외국어, 3.철학, 4.취미, 5.미성년)를 선택하세요"
+            System.out.println("\n찾고싶은 도서의 카테고리(1.문학, 2.외국어, 3.철학, 4.취미, 5.미성년 6.전체)를 선택하세요"
             		+ "\n이전 단계는 0 또는 '이전'을 입력해주세요\n------------------------------");
             String input = sc.nextLine();
           //  int input = Integer.parseInt(inputTmp);
@@ -109,12 +109,15 @@ public class 도서조회_class extends bookList{
 		                else {
 		                	System.out.println("다시 선택해주세요\n");
 		                }
-		                break;
-		                
+		                break;	
+		            case "6": case "전체":
+		            	System.out.println("0~a~ㄱㄴㄷ 순으로 조회합니다\n");
+		            	info.sortabc();
 		            case "0": case "이전":
 		            	System.out.println("이전단계로 돌아갑니다\n");
-        	            break loop;		                
+        	            break loop;	
 		            default:
+		            	
 		                for (int i = 0; i < booklist.length; i++) {
 		                    if (booklist[i][3][0].equals(input)) {
 		                    	System.out.println("도서번호 : " + booklist[i][3][0]);
